@@ -33,7 +33,7 @@ puts int_range_array_odds.count
 end
 # prime?(integer)               ## test code ##
 
-#=begin 
+=begin 
 
 
 describe "prime?" do
