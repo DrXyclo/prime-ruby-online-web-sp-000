@@ -33,7 +33,7 @@ require 'pry'
  integer = 4                   ## test code ##
 def prime?(integer)
   [2, 3, 5, 7, 11, 105557].detect {|i| i == integer}
-    # binding.pry 
+     binding.pry 
     puts  "true"
       
    end 
