@@ -29,7 +29,7 @@ def prime?(integer)
 end
 # prime?(integer)               ## test code ##
 
-#=begin 
+=begin 
 
 
 describe "prime?" do
