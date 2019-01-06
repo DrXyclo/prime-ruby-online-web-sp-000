@@ -30,17 +30,17 @@ require 'pry'
 
 ## something weird happening here probably has to do with how the array logic is evaluated overall for example 2 matches and evalutes true but 3 will go false so what does the test see?  Might want to try detect with this approach ie detect 1st intsance of integer 2 in a the prime array
 
- integer = 101013                   ## test code ##
+# integer = 101013                   ## test code ##
 def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].find do |i| 
-    i == integer
-     # binding.pry
+    i == intege
+# binding.pry                         ## test code ##
    end
-  return true # puts "true"
+  return true                         # puts "true"
   elsif [-1, 0, 1, 4, 40, 1763, 101013].find do |i|
     i == integer
     end 
-    return false # puts  "false"
+    return false                      # puts  "false"
   else
     puts "how did I get here?"
   end 
