@@ -36,6 +36,7 @@ def prime?(integer)
     i == integer
      binding.pry 
     puts  "true"
+  end 
   else
     puts "false"
   end 
