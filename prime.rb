@@ -16,7 +16,7 @@ require 'pry'
 
 ## Gets rid of evens and keeps 2
 
-int_range_array = (-1..50000).to_a 
+int_range_array = (-1..1000).to_a 
  
 int_range_array_odds = int_range_array.select {|int| int.odd? || int.even? && int <= 2}
 
