@@ -23,9 +23,9 @@ require 'pry'
 def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].each {|i| i == integer} 
     return true
-  elsif [-1, 0, 1, 4, 40, 1763, 101013].each {|i| i == integer}
+  elsif [-1, 0, 1, 4, 40, 1763, 101013].each {|i| i == integer binding.pry}
     return false
-    binding.pry
+    
   end 
 end
 prime?(-1)               ## test code ##
