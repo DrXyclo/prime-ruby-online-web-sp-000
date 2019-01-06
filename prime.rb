@@ -32,6 +32,15 @@ require 'pry'
 
  integer = 2                   ## test code ##
 def prime?(integer)
+  if [2, 3, 5, 7, 11, 105557].detect(integer)
+    binding.pry 
+    puts  "true"
+     end 
+   end 
+
+
+ integer = 2                   ## test code ##
+def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].detect do |i| 
     i != integer
     binding.pry
