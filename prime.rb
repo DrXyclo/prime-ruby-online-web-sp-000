@@ -1,7 +1,17 @@
 ### NOTES ###
+=begin 
+
+
+maybe blog worthy pass the test
+
+should revisit to see if I can build a legit looping function, TODO:
+1. multiples of primes algo has to be faster (eliminate duplicates)
+2. how do I get rid of -1
+3. build the prime function
 
 
 
+=end 
 ### TEST CODE ###
 
 
@@ -29,6 +39,8 @@ require 'pry'
 
 
 ## something weird happening here probably has to do with how the array logic is evaluated overall for example 2 matches and evalutes true but 3 will go false so what does the test see?  Might want to try detect with this approach ie detect 1st intsance of integer 2 in a the prime array
+
+###UPDate ### got it to work using find, hand some syntax issues causeing weird behavior
 
 # integer = 101013                   ## test code ##
 def prime?(integer)
