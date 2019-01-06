@@ -37,7 +37,7 @@ def prime?(integer)
     puts  "true"
      end 
    end 
-
+prime?(integer)
 =begin 
  integer = 2                   ## test code ##
 def prime?(integer)
@@ -53,7 +53,7 @@ def prime?(integer)
     end 
   end 
 end
-prime?(integer)               ## test code ##
+               ## test code ##
 
 
 test code
