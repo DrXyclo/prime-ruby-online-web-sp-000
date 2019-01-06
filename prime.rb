@@ -35,7 +35,7 @@ def prime?(integer)
   [2, 3, 5, 7, 11, 105557].detect(integer)
     binding.pry 
     puts  "true"
-     end 
+      
    end 
 prime?(integer)
 =begin 
