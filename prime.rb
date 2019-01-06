@@ -36,7 +36,11 @@ end
 prime?(integer)               ## test code ##
 
 =begin 
+test code
 
+integer
+i 
+i == integer 
 
 describe "prime?" do
   it 'returns true for prime numbers' do
