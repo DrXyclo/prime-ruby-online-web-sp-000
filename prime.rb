@@ -17,7 +17,7 @@ require 'pry'
 
 
 
-integer = -1
+integer = -2
 def prime?(integer)
   if integer.between?(-1,1)
     puts "false"
