@@ -20,6 +20,7 @@ require 'pry'
 integer = -1
 def prime?(integer)
   if integer.between?(-1,1)
+    binding.pry 
     puts "false"
   else
     puts "shit"
