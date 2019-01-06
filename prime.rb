@@ -37,7 +37,7 @@ def prime?(integer)
   end 
   
 end
-# prime?(integer)               ## test code ##
+ prime?(-1)               ## test code ##
 
 =begin 
 
