@@ -19,7 +19,7 @@ require 'pry'
     # puts "false"              ## test code ##
 
 
- integer = -1                   ## test code ##
+ integer = 2                   ## test code ##
 def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].each do |i| 
     i != integer
