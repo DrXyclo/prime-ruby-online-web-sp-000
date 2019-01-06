@@ -27,7 +27,7 @@ def prime?(integer)
     i == integer 
     puts "false"
     # return false
-    
+  end 
   end 
 end
 prime?(-1)               ## test code ##
