@@ -22,6 +22,7 @@ def prime?(integer)
   if int.between?(-1,1)
     return false
   end 
+  puts "false"
 end
 
 =begin 
