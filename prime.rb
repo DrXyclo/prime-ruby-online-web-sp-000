@@ -25,7 +25,8 @@ def prime?(integer)
     return true
   elsif [-1, 0, 1, 4, 40, 1763, 101013].each do |i| 
     i == integer 
-    return false
+    puts "false"
+    # return false
     
   end 
 end
