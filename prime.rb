@@ -20,9 +20,10 @@ require 'pry'
 int = -1
 def prime?(integer)
   if int.between?(-1,1)
-    return false
+    puts "false"
+    # return false
   end 
-  puts "false"
+  
 end
 
 =begin 
