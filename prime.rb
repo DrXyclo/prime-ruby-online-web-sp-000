@@ -38,7 +38,7 @@ def prime?(integer)
      end 
    end 
 
-
+=begin 
  integer = 2                   ## test code ##
 def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].detect do |i| 
@@ -55,7 +55,7 @@ def prime?(integer)
 end
 prime?(integer)               ## test code ##
 
-=begin 
+
 test code
 
 integer
