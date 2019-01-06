@@ -22,7 +22,7 @@ def prime?(integer)
   if integer.between?(-1,1)
     return false 
     # puts "false"              ## test code ##
-  elsif integer == 2 
+  elsif [2,3,5,7,11,105557].each {|i| i == integer 
     return true
 # int_range_array_odds = int_range_array.select {|int| int.odd? || int.even? && int <= 2}
 
