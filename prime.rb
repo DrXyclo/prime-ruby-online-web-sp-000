@@ -40,7 +40,7 @@ def prime?(integer)
   elsif [-1, 0, 1, 4, 40, 1763, 101013].find do |i|
     i == integer
     end 
-    # puts  "false"
+    return false # puts  "false"
   else
     puts "how did I get here?"
   end 
