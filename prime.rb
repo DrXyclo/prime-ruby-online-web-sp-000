@@ -17,19 +17,19 @@ require 'pry'
 
 
 
-integer = 2
+# integer = 2                   ## test code ##
 def prime?(integer)
   if integer.between?(-1,1)
-    return false puts "false"
+    return false 
+    # puts "false"              ## test code ##
   else
-    puts "shit"
-    # return false
+   
   end 
   
 end
-prime?(integer)
+# prime?(integer)               ## test code ##
 
-=begin 
+#=begin 
 
 
 describe "prime?" do
