@@ -35,8 +35,9 @@ def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].find do |i| 
     i == integer
      # binding.pry 
-    puts  "true"
+    
     end 
+    puts  "true"
   else
     puts "false"
   end 
