@@ -26,8 +26,9 @@ def prime?(integer)
     # integer.between?(-1,1)
     # return false 
     # puts "false"              ## test code ##
-  elsif [-1, 0, 1, 4, 40, 1763, 101013].each {|i| i == integer} 
-    return false
+  elsif [-1, 0, 1, 4, 40, 1763, 101013].each {|i| i == integer
+    return false}
+    
 # int_range_array_odds = int_range_array.select {|int| int.odd? || int.even? && int <= 2}
 
 #   print int_range_array_odds  ## test code ##
