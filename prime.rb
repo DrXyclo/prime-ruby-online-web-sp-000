@@ -22,7 +22,7 @@ require 'pry'
  integer = -1                   ## test code ##
 def prime?(integer)
   if [2, 3, 5, 7, 11, 105557].each {|i| i == integer} 
-    return true
+    puts  "true"
   elsif [-1, 0, 1, 4, 40, 1763, 101013].each do |i| 
     i == integer 
     puts "false"
