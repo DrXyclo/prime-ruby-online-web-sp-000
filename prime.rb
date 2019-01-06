@@ -19,7 +19,7 @@ require 'pry'
 
 
 def prime?(integer)
-  if int.between? (-1,1)
+  if int.between?(-1,1)
     return false
   end 
 end
