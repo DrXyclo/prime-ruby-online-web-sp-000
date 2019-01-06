@@ -22,14 +22,17 @@ def prime?(integer)
   if integer.between?(-1,1)
     return false 
     # puts "false"              ## test code ##
-  else
-   
+  elsif 
+   int_range_array_odds = int_range_array.select {|int| int.odd? || int.even? && int <= 2}
+
+#   print int_range_array_odds
+puts int_range_array_odds.count
   end 
   
 end
 # prime?(integer)               ## test code ##
 
-=begin 
+#=begin 
 
 
 describe "prime?" do
