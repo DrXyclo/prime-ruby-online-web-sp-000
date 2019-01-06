@@ -12,7 +12,7 @@ require 'pry'
 
 
 
- int_range_array_odds = int_range_array.select {|int| int.odd? || int.even? && int <= 2}
+ # int_range_array_odds = int_range_array.select {|int| int.odd? || int.even? && int <= 2}
 
  # integer.between?(-1,1)
     # return false 
