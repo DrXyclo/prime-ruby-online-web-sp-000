@@ -19,14 +19,12 @@ require 'pry'
 
 
 def prime?(integer)
-  if int.is_between
+  if int.between? (-1,1)
+    return false
+  end 
+end
 
-
-
-
-
-
-
+=begin 
 
 
 describe "prime?" do
