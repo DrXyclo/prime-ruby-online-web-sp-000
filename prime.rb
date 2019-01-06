@@ -26,15 +26,9 @@ def prime?(integer)
   elsif [-1, 0, 1, 4, 40, 1763, 101013].each {|i| i == integer}
     return false
     binding.pry
-    
-#
-
-#   print int_range_array_odds  ## test code ##
-# puts int_range_array_odds.count 
   end 
-  
 end
- prime?(-1)               ## test code ##
+prime?(-1)               ## test code ##
 
 =begin 
 
