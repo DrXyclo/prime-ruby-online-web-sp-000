@@ -41,7 +41,7 @@ def prime?(integer)
     puts "false"
   end 
       
-   end 
+end 
 prime?(integer)
 =begin 
  integer = 2                   ## test code ##
